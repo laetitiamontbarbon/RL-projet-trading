@@ -1,0 +1,43 @@
+# --- ENVIRONNEMENT PYTHON ---
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# --- IMAGES ET DONNÉES ---
+images/
+data/
+datasets/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+
+# --- MODÈLES LOURDS ---
+models/
+*.h5
+*.pt
+*.pkl
+*.onnx
+*.tflite
+
+# --- LOGS & SORTIES ---
+logs/
+runs/
+outputs/
+*.log
+
+# --- CONFIG & SYSTÈME ---
+.DS_Store
+Thumbs.db
+*.env
+.env
+.idea/
+.vscode/
