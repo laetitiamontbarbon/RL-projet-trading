@@ -1,0 +1,1 @@
+{"_timestamp":1.766430401441088e+09,"_step":2,"episode/return_pct":0,"_wandb":{"runtime":8},"_runtime":8,"episode/portfolio":1000,"episode/count":2,"final/portfolio":1000,"final/mean_reward":-13061.879332,"episode/reward":-8106.666558,"final/return_pct":0}

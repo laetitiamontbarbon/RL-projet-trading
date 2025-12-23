@@ -1,0 +1,73 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            6vfuxg3cydrmdwu0nbmbyfb58hbkan0a:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 8
+                    memoryGb: 8
+                    name: Apple M1
+                    pcpuCores: 4
+                    ramTotalBytes: "8589934592"
+                    swapTotalBytes: "4294967296"
+                codePath: /Users/gueguenoucedric/Documents/RL-projet-trading/main.ipynb
+                codePathLocal: main.ipynb
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "179505541120"
+                email: cedric.gueguenou@cpe.fr
+                executable: /Users/gueguenoucedric/Documents/RL-projet-trading/.venv/bin/python
+                git:
+                    commit: 1c622583b10ad96ebb6314fbb233d34dd354de7b
+                    remote: https://github.com/laetitiamontbarbon/RL-projet-trading.git
+                host: mbpdegueguenou.home
+                memory:
+                    total: "8589934592"
+                os: macOS-14.3.1-arm64-arm-64bit-Mach-O
+                program: /Users/gueguenoucedric/Documents/RL-projet-trading/main.ipynb
+                python: CPython 3.13.3
+                root: /Users/gueguenoucedric/Documents/RL-projet-trading
+                startedAt: "2025-12-22T18:43:25.553761Z"
+                writerId: 6vfuxg3cydrmdwu0nbmbyfb58hbkan0a
+        m: []
+        python_version: 3.13.3
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 13
+                - 16
+                - 34
+                - 35
+            "4": 3.13.3
+            "5": 0.23.1
+            "8":
+                - 1
+                - 2
+            "12": 0.23.1
+            "13": darwin-arm64
+algo:
+    value: PPO
+batch_size:
+    value: 64
+gamma:
+    value: 0.99
+learning_rate:
+    value: 0.0003
+n_steps:
+    value: 2048
+reward_scaling:
+    value: 1.5
+reward_type:
+    value: aggressive_sharpe
+risk_penalty:
+    value: 0.05
+timesteps:
+    value: 500000

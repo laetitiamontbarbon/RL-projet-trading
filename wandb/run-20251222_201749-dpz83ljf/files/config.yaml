@@ -1,0 +1,71 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            8986qwwlqawt1gmb8f0nhfumsjzgvvbt:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 8
+                    memoryGb: 8
+                    name: Apple M1
+                    pcpuCores: 4
+                    ramTotalBytes: "8589934592"
+                    swapTotalBytes: "4294967296"
+                codePath: /Users/gueguenoucedric/Documents/RL-projet-trading/main.ipynb
+                codePathLocal: main.ipynb
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "179586715648"
+                email: cedric.gueguenou@cpe.fr
+                executable: /Users/gueguenoucedric/Documents/RL-projet-trading/.venv/bin/python
+                git:
+                    commit: 1c622583b10ad96ebb6314fbb233d34dd354de7b
+                    remote: https://github.com/laetitiamontbarbon/RL-projet-trading.git
+                host: mbpdegueguenou.home
+                memory:
+                    total: "8589934592"
+                os: macOS-14.3.1-arm64-arm-64bit-Mach-O
+                program: /Users/gueguenoucedric/Documents/RL-projet-trading/main.ipynb
+                python: CPython 3.13.3
+                root: /Users/gueguenoucedric/Documents/RL-projet-trading
+                startedAt: "2025-12-22T19:17:49.873269Z"
+                writerId: 8986qwwlqawt1gmb8f0nhfumsjzgvvbt
+        m: []
+        python_version: 3.13.3
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 13
+                - 16
+                - 34
+                - 35
+            "4": 3.13.3
+            "5": 0.23.1
+            "8":
+                - 1
+                - 2
+            "10":
+                - 20
+            "12": 0.23.1
+            "13": darwin-arm64
+algo:
+    value: PPO
+learning_rate:
+    value: 0.0003
+name:
+    value: simple_return_baseline
+reward_scaling:
+    value: 1
+reward_type:
+    value: simple_return
+risk_penalty:
+    value: 0
+timesteps:
+    value: 500000
